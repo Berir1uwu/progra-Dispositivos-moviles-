@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _showVictoryMessage() {
-    // Mostrar mensaje de victoria
+    
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _showDefeatMessage() {
-    // Mostrar mensaje de derrota
+    
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
