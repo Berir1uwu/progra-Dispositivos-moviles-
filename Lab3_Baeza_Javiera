@@ -79,9 +79,9 @@ class _MyHomePageState extends State<_MyHomePage> {
           ),
           const SizedBox(height: 16),
           FloatingActionButton(
-            onPressed: _resetCounter, // Cambiar la funcionalidad del botón flotante
+            onPressed: _resetCounter, // Cambiar la funcionalidad
             tooltip: 'Reset',
-            child: const Icon(Icons.restore), // Cambiar el icono del botón flotante
+            child: const Icon(Icons.restore), // Cambiar el icono 
           ),
         ],
       ),
